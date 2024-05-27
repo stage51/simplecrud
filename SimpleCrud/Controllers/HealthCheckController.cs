@@ -9,7 +9,7 @@ namespace Crud.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok("Service is running.");
+            return Ok("Сервис работает.");
         }
     }
 }

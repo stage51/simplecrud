@@ -9,8 +9,8 @@ namespace SimpleApi.Controllers
     {
         private static List<Product> Products = new List<Product>
         {
-            new Product { Id = 1, Name = "Product1", Price = 10.0m },
-            new Product { Id = 2, Name = "Product2", Price = 20.0m }
+            new Product { Id = 1, Name = "Гуашь", Price = 50.0m },
+            new Product { Id = 2, Name = "Гитара", Price = 150.0m }
         };
 
         [HttpGet]
